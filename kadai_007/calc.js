@@ -1,13 +1,13 @@
-let number = 30;
-if ((number % 3 == 0) && (number % 5 == 0)){
+let num = 30;
+if ((num % 3 == 0) && (num % 5 == 0)){
     console.log ("3と5の倍数です");
 }
-else if (number % 3 == 0){
+else if (num % 3 == 0){
     console.log ("3の倍数です");
 }
-else if (number % 5 == 0){
+else if (num % 5 == 0){
     console.log ("5の倍数です");
 }
 else {
-    console.log (number);
+    console.log (num);
 }
